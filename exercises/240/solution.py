@@ -6,7 +6,7 @@ Created on Tue Sep 22 18:46:00 2015
 """
 n1 = 1
 n2 = 2
-alist= [n1, n2]
+alist = [n1, n2]
 for i in range(0, 8):
     n3 = n1 + n2
     alist.append(n3)
