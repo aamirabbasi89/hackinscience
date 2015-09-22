@@ -14,7 +14,8 @@ print(r'C:\some\name')
 print("""\
 Usage: thingy[OPTIONS]
        -h                 Display this usage message
-       -H                 Hostname to connect to""")
+       -H                     Hostname to connect to
+""")
 string = 3 * 'un' + 'ium'
 print(string)
 print('Py' 'thon')
