@@ -9,8 +9,8 @@ Created on Mon Sep 21 15:54:32 2015
 import string
 alphaList=string.ascii_lowercase
 #alphaList=list(string.ascii_lowercase)
-aO=0;
+aO = 0;
 for i in range(0,26):
-    aO=aO+1
+    aO = aO + 1
     for j in range(aO,26):
-           print(alphaList[i]+alphaList[j])
+           print(alphaList[i] + alphaList[j])
