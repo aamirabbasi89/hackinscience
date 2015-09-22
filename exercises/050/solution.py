@@ -6,7 +6,7 @@ Created on Mon Sep 21 15:21:48 2015
 @author: Aamir Abbasi
 """
 s = 0
-for i in range(0,1001):
-    if i%3 == 0 | i%5 == 0:
+for i in range(0, 1001):
+    if i % 3 == 0 | i % 5 == 0:
         s = s + i
 print('Sum of all the multiples of 3 or 5 is:', ' ', s)
