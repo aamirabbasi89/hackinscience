@@ -9,4 +9,4 @@ alphaList = string.ascii_lowercase
 for i in range(0, 26):
     for j in range(0, 26):
         if alphaList[i] != alphaList[j]:
-           print(alphaList[i] + alphaList[j])
+            print(alphaList[i] + alphaList[j])
