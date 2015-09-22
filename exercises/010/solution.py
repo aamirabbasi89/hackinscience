@@ -14,3 +14,4 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  peace and justice in the galaxy, to settle the conflict"""
 Words = phantom_menace.split()
 nWords = len(Words)
+print(nWords)
