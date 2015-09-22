@@ -6,5 +6,5 @@ Created on Mon Sep 21 13:42:14 2015
 @author: Aamir Abbasi
 """
 list = 'Hello world!'
-for i in range(0, 99):
+for i in range(0, 101):
     print(list)
