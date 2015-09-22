@@ -9,4 +9,4 @@ import sys
 try:
     print(sys.argv[1])
 except:
-    print("Not Enough Parameters")
+    print("Not enough parameters.")
