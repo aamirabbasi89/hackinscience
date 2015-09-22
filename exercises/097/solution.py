@@ -20,4 +20,3 @@ def affair_meet(bob,alice,silvester):
                 if alice[i] != bob[j] & alice[j] == silvester[k]:
                     CommonList = [CommonList, alice[i]]
     print(CommonList)
-    
