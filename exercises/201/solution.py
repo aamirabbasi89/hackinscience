@@ -6,7 +6,7 @@ Created on Tue Sep 22 16:50:47 2015
 """
 
 
-def is_alpha(input):   
+def is_alpha(input):
     import string
     letters = string.ascii_letters
     for i in range(0, len(letters)):
