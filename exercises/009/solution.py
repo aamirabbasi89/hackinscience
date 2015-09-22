@@ -12,6 +12,5 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  the small planet of Naboo. While the congress of the Republic\
  endlessly debates this alarming chain of events, the Supreme\
  Chancellor has secretly dispatched two Jedi Knights, the guardians of\
- peace and justice in the galaxy, to settle the conflict"""
- 
+ peace and justice in the galaxy, to settle the conflict""" 
 print(len(phantom_menace)) 
