@@ -7,6 +7,12 @@ Created on Tue Sep 22 17:26:28 2015
 """
 alist = []
 for i in range(10000, 10050):
-        if i % 2 != 0 & i % 2 != 0 & i % 5 != 0:
-            alist.append(i)
+    for j in range(2, i):
+        flag = 0
+        if i % j == 0:
+            flag = 1
+        if flag == 1:
+            break
+    if flag == 0:
+        alist.append(i)
 print(alist)
