@@ -12,4 +12,3 @@ def is_alpha(input):
             return True
         else:
             return False
-    
