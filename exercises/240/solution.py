@@ -14,6 +14,6 @@ for i in range(0, 8):
     n2 = n3
 for i in range(0, len(alist)):
     if i < len(alist)-1:
-        print(alist[i], ',', end=' ')
+        print(alist[i], end=', ')
     else:
-        print(alist[i], '.')
+        print(alist[i], end='.')

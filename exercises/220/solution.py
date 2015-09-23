@@ -15,4 +15,4 @@ for i in range(10000, 10050):
             break
     if flag == 0:
         alist.append(i)
-print(alist)
+print(alist, end=' ')
