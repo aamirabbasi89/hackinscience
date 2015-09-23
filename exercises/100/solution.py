@@ -8,9 +8,9 @@ Created on Tue Sep 22 10:51:57 2015
 station = {
     'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
     'number': 31705,
-    'latitude': 48.8645278209514,
+    'latitude': 48.864527821,
     'name': 'CHAMPEAUX (BAGNOLET)',
-    'longitude': 2.416170724425901
+    'longitude': 2.41617072443
 }
 print("latitude ", station['latitude'])
 print("longitude ", station['longitude'])
