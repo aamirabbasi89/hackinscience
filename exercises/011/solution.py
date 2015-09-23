@@ -5,6 +5,6 @@ Created on Mon Sep 21 13:42:14 2015
 
 @author: Aamir Abbasi
 """
-list = 'Hello world'
-for i in range(0, 101):
+list = 'Hello World'
+for i in range(1, 101):
     print(list)
