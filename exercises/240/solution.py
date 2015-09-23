@@ -12,4 +12,8 @@ for i in range(0, 8):
     alist.append(n3)
     n1 = n2
     n2 = n3
-print(alist, '.')
+for i in range(0, len(alist)):
+    if i < len(alist)-1:
+        print(alist[i], ',', end=' ')
+    else:
+        print(alist[i], '.')
