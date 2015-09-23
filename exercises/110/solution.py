@@ -9,4 +9,15 @@ import sys
 if (len(sys.argv)) < 4:
     print("usage: ./solution.py a_number (an_operator +-*/%^) a_number")
 else:
-    output = sys.argv[1] (sys.argv[2]) sys.argv[3]
+    if sys.argv[2] == '+':
+        print(int(sys.argv[1]) + int(sys.argv[3]))
+    if sys.argv[2] == '-':
+        print(int(sys.argv[1]) - int(sys.argv[3]))
+    if sys.argv[2] == '//':
+        print(int(sys.argv[1]) / int(sys.argv[3]))
+    if sys.argv[2] == '\*':
+        print(int(sys.argv[1]) * int(sys.argv[3]))
+    if sys.argv[2] == '%':
+        print(int(sys.argv[1]) % int(sys.argv[3]))
+    if sys.argv[2] == '^':
+        print(int(sys.argv[1]) ^ int(sys.argv[3]))
