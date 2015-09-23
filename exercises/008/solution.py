@@ -6,6 +6,6 @@ Created on Mon Sep 21 13:37:07 2015
 
 @author: Aamir Abbasi
 """
-list = 'Hello world !'
+list = 'Hello World !'
 for i in range(0, len(list)):
     print(list[i])

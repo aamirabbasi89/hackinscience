@@ -6,9 +6,7 @@ Created on Mon Sep 21 15:21:48 2015
 @author: Aamir Abbasi
 """
 s = 0
-for i in range(1, 1000):
-    if i % 3 == 0:
-        s = s + i
-    if i % 5 == 0:
+for i in range(0, 1000):
+    if i % 3 == 0 | i % 5 == 0:
         s = s + i
 print(s)
