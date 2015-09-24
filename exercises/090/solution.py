@@ -6,6 +6,5 @@ Created on Tue Sep 22 10:23:00 2015
 @author: Aamir Abbasi
 """
 import sys
-aList = list(enumerate(sys.argv))
-for i in enumerate(0, len(aList)):
-    print(aList[i])
+for i in enumerate(sys.argv):
+    print(i[0], i[1], sep=' ')
