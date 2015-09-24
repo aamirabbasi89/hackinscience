@@ -7,5 +7,5 @@ Created on Tue Sep 22 10:23:00 2015
 """
 import sys
 aList = list(enumerate(sys.argv))
-for i in range(0, len(aList)):
+for i in enumerate(0, len(aList)):
     print(aList[i])

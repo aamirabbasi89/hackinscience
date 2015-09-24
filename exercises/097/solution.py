@@ -13,7 +13,7 @@ def love_meet(bob, alice):
         for j in range(0, len(alice)):
             if bob[i] == alice[j]:
                 CommonList.append(bob[i])
-    print(set(CommonList))
+    return (set(CommonList))
 
 
 def affair_meet(bob, alice, silvester):
@@ -23,4 +23,4 @@ def affair_meet(bob, alice, silvester):
             for k in range(0, len(silvester)):
                 if alice[i] != bob[j] and alice[i] == silvester[k]:
                     CommonList.append(alice[i])
-    print(set(CommonList))
+    return (set(CommonList))
