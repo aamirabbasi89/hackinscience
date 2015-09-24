@@ -6,6 +6,8 @@ Created on Tue Sep 22 15:29:58 2015
 @author: Aamir Abbasi
 """
 import sys
+if sys.argv[2] != '+' or '-' or '/' or '*' or '**' or '%':
+    print("usage: ./solution.py a_number (an_operator +-*/%^) a_number")
 if (len(sys.argv)) < 4:
     print("usage: ./solution.py a_number (an_operator +-*/%^) a_number")
 else:
