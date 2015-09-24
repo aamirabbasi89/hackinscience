@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 22 19:36:46 2015
+Created on Thu Sep 24 15:06:29 2015
 
 @author: Aamir Abbasi
 """
-try: 
+
+
+try:
     import requests
-    req = requests.get('http://mdk.fr/ip')
-    print(req)
+    r = requests.get('http://mdk.fr/ip')
+    print(r.headers['content-type'])
 except:
-    print("No internet connectivity.")
+    print('No internet connectivity.')
