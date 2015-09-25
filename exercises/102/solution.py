@@ -4,10 +4,12 @@ Created on Tue Sep 22 13:07:53 2015
 
 @author: Aamir Abbasi
 """
+
+
 def check_my_city(city_name):
     velib = \
     [{'address': ('RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE)',
-      '- 93170 BAGNOLET'),
+                  '- 93170 BAGNOLET'),
       'zip': '93170-',
       'number': 31705, 'latitude': 48.8645278209514, 'city': 'BAGNOLET-',
       'name': 'CHAMPEAUX (BAGNOLET)-',
@@ -36,10 +38,10 @@ def check_my_city(city_name):
       'city': 'PANTIN-',
       'name': 'DE GAULLE (PANTIN)-',
       'longitude': 2.412715733388685}]
-    for i in range(0, len(velib)-1):    
-       if velib[i]['city'] != city_name:
-          return "Sorry! No station for your city has been found!"
+    for i in range(0, len(velib)-1):
+        if velib[i]['city'] != city_name:
+            return "Sorry! No station for your city has been found!"
 #       else:
-#          return {"stations_nb": 2, 
+#          return {"stations_nb": 2,
 #                  "zip_code": ['93170', '93320'],
 #                  "city": city_name}
